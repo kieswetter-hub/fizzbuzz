@@ -15,5 +15,10 @@ var result = "";
 
 for (let i = 1; i <= userNumber; i++) {
     result = result + i;
+    if (i % 3 === 0) {
+        console.log("fizz");
+    } else {
+        console.log(i);
+    }
 }
-console.log(result)
+
